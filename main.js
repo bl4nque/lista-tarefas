@@ -10,7 +10,7 @@ $(document).ready(function(){
         $(`<li> ${tarefa}</li>`).appendTo(novaTarefa)
         $(novaTarefa).appendTo('body')
 
-        $(novaTarefa).fadeIn(1500)
+        $(novaTarefa).slideToggle(750)
         
         $('#adiciona-tarefa').val('')
 
